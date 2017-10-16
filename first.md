@@ -19,7 +19,7 @@ tensorflow初学tips--基于莫烦视频
          Outputs=Wx_plus_b
             Else:<br>
              Outputs=activation_funtion(Wx_plus_b)
-              Return output
+             Return output
 ### 5.tensorboard的视图化效果。
 将神经网络以图表的形式表现出来。<br>
 但是具体实施过程中最后copy网址时，“http://home-lyk:6006” 找不到网址，报错404.<br>
