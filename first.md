@@ -1,9 +1,11 @@
 # tensorflow
 learning
-####tensorflow初学总结--基于莫烦视频
-####1.对tensorflow有了初步认识。
+tensorflow初学总结--基于莫烦视频
+----
+1.对tensorflow有了初步认识。
+----
 使用图graph来表示计算任务，会话session来运行任务，即任务的建立和运行清楚的分为两个模块，对于设计者来说很方便。<br>
-####2.tensorflow的基本语法知识。
+2.tensorflow的基本语法知识。
 ---------
 对于变量variable进行创建和命名：state = tf.variable(0,name=’counter’)
 初始化init =tf.global_variables_initializer(),后面一定要sess.run(init)才算激活
@@ -17,7 +19,8 @@ learning
                           result =sess.run([product])
                           print result
                       ···
-####3.placehoder的使用，类似于变量的东西，但是placeholder是需要调用的时候从外界引入数字。
+3.placehoder的使用，类似于变量的东西，但是placeholder是需要调用的时候从外界引入数字。
+-------
   input 1=tf.placeholder(tf.float32)
   Input2=tf.placeholder(tf.float32)
   Output =tf.multiply(input1,input2)【windows的mul要写成multiply]
